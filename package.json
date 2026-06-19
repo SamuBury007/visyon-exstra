@@ -1,16 +1,15 @@
 {
-  "name": "mia-estensione",
+  "name": "vixsrc-video-extractor",
   "version": "1.0.0",
-  "description": "Simple streaming API server",
+  "description": "Proxy server per estrarre link video da vixsrc.to",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.3",
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
